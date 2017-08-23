@@ -64,9 +64,13 @@ There are some test plugins, feel free to delete them.
 
 I'm going to refer to your prefix as `[p]`  
 Type `[p]plug pluginname-that's-in-the-plugins-folder` to load the plugin then  
-Type `[p]commandname`: this will delete your message and execute the plugin in the current channel
+Type `[p]commandname`: this will delete your message and execute the plugin in the current channel  
+
+
+
 
 ## **(Optional) How to set it up on a Linux server:**
+
 1. Installl screen with your package managar (e.g.: Ubuntu: `sudo apt-get isntall screen`)
 1. Type `screen` than press RETURN OR SPACE
 1. Go to the directory that `autorespawn.sh` is in
@@ -74,3 +78,12 @@ Type `[p]commandname`: this will delete your message and execute the plugin in t
 1. Type `./autorespawn.sh` to run  
 
 And your done. Now you can press `CTRL + a` then `d` to detach and then it's running in the backround. To reatach pres `CTRL + a` then `r` or if it did not detach properly press `CTRL + a` then `x`. 
+
+
+
+## **Troubleshoothing:**
+> T: The window immediatly desappears or it says that it doesn't have a module  
+> A: Check your python version and check if you have all the requirements  
+
+Support server:
+https://discord.gg/tQjbKu
