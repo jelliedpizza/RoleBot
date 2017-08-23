@@ -82,8 +82,8 @@ And your done. Now you can press `CTRL + a` then `d` to detach and then it's run
 
 
 ## **Troubleshoothing:**
-> T: The window immediatly desappears or it says that it doesn't have a module  
-> A: Check your python version and check if you have all the requirements  
 
-Support server:
-https://discord.gg/tQjbKu
+> T: The window immediatly desappears or it says that it doesn't have a module or autorespawn loops and does not work  
+> A: Check your python version (Your python 3 should be 3.5.x or 3.6.x) and check if you have all the requirements  
+
+Support server https://discord.gg/tQjbKu
