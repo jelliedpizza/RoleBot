@@ -1,0 +1,10 @@
+{
+        "OwnerID":"YOURID",
+        "Token":"YOURTOKEN",
+        "startup_plugins":[
+            "test1.py",
+            "test2.py",
+            "test3.py"
+            ],
+        "Prefix":["--"]
+}
