@@ -5,7 +5,11 @@ import asyncio
 import sys
 import checks
 import os
-from urllib.request import urlretrieve
+try:
+	from urllib.request import urlretrieve
+except Exception as e:
+	pass
+
 import json
 import unicodedata
 
