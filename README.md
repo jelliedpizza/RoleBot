@@ -1,4 +1,4 @@
-# RoleBot: an open source bot whose sole purpose is role management
+# RoleBot: an open source bot whose sole purpose is role management (Broken, fix coming today)
 
 
 ## **Requirements:**
