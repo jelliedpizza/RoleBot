@@ -16,11 +16,15 @@ You will need the token later.
 [How to install it on Linux (The easy way)](https://packaging.python.org/guides/installing-using-linux-tools/) (Remember: Python 3)
 
 
-### **dicord py**:
+### **dicord py and asyncio**:
 Open your preferred terminal interface (Could be Command Prompt, PowerShell or a Unix Terminal) and type:
 ```python
 pip install discord.py
 ```
+and
+```python
+pip install discord.py
+```  
 
 ### **Git**:
 For Windows http://git-scm.com/download/win  
@@ -60,6 +64,8 @@ If you are just testing open `brain.py` and enter the link in a browser to invit
 > but if you are running it on a windows/linux server click autorespawn .sh or .bat respectively and if it crashes, it will respawn the proces
 
 ### **Using a plugin with the bot**
+There are some test plugins, feel free to delete them.  
+
 I'm going to refer to your prefix as `[p]`  
 Type `[p]plug pluginname-that's-in-the-plugins-folder` to load the plugin then  
 Type `[p]commandname`: this will delete your message and execute the plugin in the current channel
