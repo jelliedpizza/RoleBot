@@ -49,6 +49,12 @@ Remember step one? Now enter your token inside the quotes from your discord appl
 You can delete everythong from the squar brackets just remember the syntax if you want to load plugins on startup.  
 Edit the prefix inside the quotes you to your liking (this what you write before commands to call them).
 
+### **Understanding the plugin system**:
+If you run `brain.py` it will give you a link that you can use to invite the bot to your server but it only responds to the built-in commands.  
+This is because it doesn't have any plugins loaded in.  
+Each plugin you generate contains a command that you can call after loading the plugin from the `plugins` folder with [p]plug (pluginname) *[p] is your prefix that you set in `config.json`*  
+After loading a plugin you can do [p]help to see what plugins you have loaded and what are the commands that initiate those plugins. (The description of the plugin is always the message that the bot sends.)  
+
 ### **Creating plugins**:
 Open up ``plugin_generator/plugin_generator.py``  
 Follow the instructions  
