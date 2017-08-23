@@ -12,7 +12,7 @@ def num1():
     roles = []
     print("\n")
     for i in range(amount):
-        emoji = input(f"Enter trigger emoji {i+1}/{amount} (Since you can't type emojis in the terminal/commandprompt use the 'do-charinfo' command and than the emoji to recive the code to enter here, don't worry this is the last time you your emoji in this form, the first emoji will be paired up with the first role and the second with the second and so on.): ")
+        emoji = input(f"Enter trigger emoji {i+1}/{amount} (Since you can't type emojis in the terminal/commandprompt use the 'charinfo' command while the bot is running and than the emoji to recive the code to enter here, don't worry this is the last time you your emoji in this form, the first emoji will be paired up with the first role and the second with the second and so on.): ")
         if ":" in emoji:
             splitted = emoji.split(":")
             emoji = f"discord.utils.get(self.bot.get_all_emojis(), id='{splitted[1]}')"
@@ -88,7 +88,7 @@ def num2():
     roles = []
     print("\n")
     for i in range(amount):
-        emoji = input(f"Enter trigger emoji {i+1}/{amount} (Since you can't type emojis in the terminal/commandprompt use the 'do-charinfo' command and than the emoji to recive the code to enter here, don't worry this is the last time you your emoji in this form, the first emoji will be paired up with the first role and the second with the second and so on.): ")
+        emoji = input(f"Enter trigger emoji {i+1}/{amount} (Since you can't type emojis in the terminal/commandprompt use the 'charinfo' command while the bot is running and than the emoji to recive the code to enter here, don't worry this is the last time you your emoji in this form, the first emoji will be paired up with the first role and the second with the second and so on.): ")
         if ":" in emoji:
             splitted = emoji.split(":")
             emoji = f"discord.utils.get(self.bot.get_all_emojis(), id='{splitted[1]}')"
@@ -160,13 +160,13 @@ def num3():
     command_name = input('What commnad should initiate the process (only letters, numbers and underscores anything else will resoult in an error): ')
     message = input("Please specify the message that the reactions will go on (Explain by clicking which emoji they receive which role and what does the role do and that they can undo this action): ")
     role = input("what role should the users be able to controll: ")
-    emoji_add = input("What emoji adds the role to the user (Since you can't type emojis in the terminal/commandprompt use the 'do-charinfo' command and than the emoji, to recive the code to enter here, don't worry this is the last time you your emoji in this form): ")
+    emoji_add = input("What emoji adds the role to the user (Since you can't type emojis in the terminal/commandprompt use the 'charinfo' command while the bot is running and than the emoji, to recive the code to enter here, don't worry this is the last time you your emoji in this form): ")
     if ":" in emoji_add:
         splitted = emoji_add.split(":")
         emoji_add = f"discord.utils.get(self.bot.get_all_emojis(), id='{splitted[1]}')"
     else:
         emoji_add = "'" + emoji_add + "'"
-    emoji_remove = input("What emoji removes the role from the user (Since you can't type emojis in the terminal/commandprompt use the 'do-charinfo' command and than the emoji, to recive the code to enter here, don't worry this is the last time you your emoji in this form): ")
+    emoji_remove = input("What emoji removes the role from the user (Since you can't type emojis in the terminal/commandprompt use the 'charinfo' command while the bot is running and than the emoji, to recive the code to enter here, don't worry this is the last time you your emoji in this form): ")
     if ":" in emoji_remove:
         splitted = emoji_remove.split(":")
         emoji_remove = f"discord.utils.get(self.bot.get_all_emojis(), id='{splitted[1]}')"
