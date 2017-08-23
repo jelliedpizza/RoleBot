@@ -40,7 +40,7 @@ git clone https://github.com/jelliedpizza/RoleBot.git
 ## **Configuring and Running:**
 
 ### **The config file**:
-Open up `config.json'  
+Open up `config.json`   
 Replace YOURID with your dicord ID for the bot to identify you
 > Go to `User Settings` (bottom left gear icon) -> `Appearance` -> Enable `Developer Mode`  
 > Right click on your name in any message and copy ID and paste it in inside the qutes  
