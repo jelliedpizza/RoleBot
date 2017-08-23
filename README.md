@@ -16,15 +16,11 @@ You will need the token later.
 [How to install it on Linux (The easy way)](https://packaging.python.org/guides/installing-using-linux-tools/) (Remember: Python 3)
 
 
-### **dicord py and asyncio**:
+### **dicord py, asyncio and urllib3**:
 Open your preferred terminal interface (Could be Command Prompt, PowerShell or a Unix Terminal) and type:
 ```python
-pip install discord.py
+pip install discord.py asyncio urllib3
 ```
-and
-```python
-pip install discord.py
-```  
 
 ### **Git**:
 For Windows http://git-scm.com/download/win  
