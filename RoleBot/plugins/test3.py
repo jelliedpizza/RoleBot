@@ -7,7 +7,6 @@ class test3():
     def __init__(self, bot):
         self.bot = bot
 
-    @checks.is_owner()
     @commands.command(name='test3', pass_context=True)
     async def test3(self, ctx):
         '''test3'''
